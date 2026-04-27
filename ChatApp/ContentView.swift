@@ -32,7 +32,7 @@ struct ContentView: View {
                                 Image(systemName: "plus")
                                     .font(.title2.bold())
                                     .padding()
-                                    .background(Color.green)
+                                    .background(Color.blue.opacity(0.7))
                                     .foregroundColor(.white)
                                     .clipShape(Circle())
                                     .shadow(color: .black.opacity(0.15), radius: 8, x: 0, y: 4)
